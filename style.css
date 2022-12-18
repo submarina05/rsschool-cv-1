@@ -1,0 +1,224 @@
+
+body {
+
+    background-color: floralwhite;
+    margin: 0; padding: 0;
+    text-align:  left;
+    font-size: 17px;
+    color: black;
+    font-family: serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+  .cv-container
+{
+    margin: 0 auto;
+    max-width: 950px;
+       }
+
+h2
+{
+    text-align: center;
+    margin: 40px 40px;
+    font-size: 60px;
+    color: cadetblue;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Dancing Script', cursive;
+}
+
+.img
+{
+    width: 190px;
+    height: 305px;
+    border-radius: 3px solid black;
+    box-shadow: 3px 3px 5px #000;
+}
+
+h3
+{
+    text-align: left;
+    margin: auto;
+    font-size: 25px;
+    color: cadetblue;
+}
+
+nav
+{
+    margin: 30px auto 0;
+    position: relative;
+    width: 600px;
+    height: 45px;
+    background-color: blanchedalmond;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.top
+{
+    display: flex;
+}
+.code
+{
+    position: relative;
+    width: 300px;
+    height: 70;
+    margin: auto;
+    font-family: monospace;
+    background-color: bisque;
+    border-radius: 3px solid black;
+    box-shadow: 3px 3px 5px #000;
+
+}
+nav a
+{
+    line-height: 50px;
+    height: 100%;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+
+a:nth-child(1) {
+    width: 110px;
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+
+a:nth-child(2)
+{
+    width: 125px;
+    color: cadetblue;
+    font-family: fantasy;
+
+}
+
+
+a:nth-child(3)
+
+{
+    width: 140px;
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+a:nth-child(4)
+{
+    width: 70px;
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+a:nth-child(5)
+{
+    width: 50px;
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+a:nth-child(6)
+{
+    width: 80px;
+    color: cadetblue;
+    font-family: fantasy;
+}
+
+* after;
+* before;
+* {
+    box-sizing: border-box;
+  }
+
+.contacts
+{
+
+    margin: 30px 0;
+    padding: 7px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.education
+{
+
+    margin: 70px 0;
+    padding: 7px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.language
+{
+
+    margin: 40px 0;
+    padding: 7px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.courses
+{
+
+    margin: 50px 0;
+    padding: 7px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.about
+{
+
+    margin: 40px 0;
+    padding: 7px;
+    background-color: bisque;
+    border-radius: 10px;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.data
+{
+ text-align: left;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+}
+
+.floor
+{
+    background-color: darkgrey;
+    margin: auto;
+    height: 250px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
